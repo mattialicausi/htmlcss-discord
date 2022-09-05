@@ -1,0 +1,15 @@
+/* palette colori 
+bg-color header: rbg: 56, 100, 216;
+bg-footer, bg- bottone header, text: rgb: 36, 39, 42;
+bg-color-button section 3, title header, bottone-footer: rgb: 144, 162, 220;
+bg-color wave: rgb: 246, 246, 246;
+*/
+/* utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial sans-serif;
+}
