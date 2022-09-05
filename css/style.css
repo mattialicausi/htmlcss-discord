@@ -10,6 +10,34 @@ bg-color wave: rgb: 246, 246, 246;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug da rimuovere */
+.debug{
+    border: 1px solid black;
+    min-height: 100px;
+}
 body{
     font-family: Helvetica, Arial sans-serif;
 }
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* modifico bg-color header, footer, section */
+header{
+    background-color: rgb(56, 100, 216);
+}
+footer{
+    background-color: rgb(36, 39, 42);
+}
+.bg-grey{
+    background-color: rgb(246, 246, 246);
+}
+
