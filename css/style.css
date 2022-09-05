@@ -33,6 +33,7 @@ body{
 /* modifico bg-color header, footer, section */
 header{
     background-color: rgb(56, 100, 216);
+    background-image: url(../img/);
 }
 footer{
     background-color: rgb(36, 39, 42);
@@ -40,4 +41,15 @@ footer{
 .bg-grey{
     background-color: rgb(246, 246, 246);
 }
+.btn{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15%;
+    text-decoration: none;
+}
+header nav ul {
+    min-width: 500px;
+    list-style: none;
+}
+
 
