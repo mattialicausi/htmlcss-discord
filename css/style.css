@@ -10,12 +10,6 @@ bg-color wave: rgb: 246, 246, 246;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* debug da rimuovere */
-.debug{
-    border: 1px solid black;
-    min-height: 100px;
-}
 body{
     font-family: Helvetica, Arial sans-serif;
 }
@@ -27,12 +21,16 @@ body{
 }
 .container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 /* modifico bg-color header, footer, section */
 header{
     background-color: rgb(56, 100, 216);
+    margin-bottom: 100px;
+}
+section{
+    margin-bottom: 100px;
 }
 footer{
     background-color: rgb(36, 39, 42);
@@ -87,7 +85,7 @@ section.hero p{
 /* section */
 .header-section{
     display: flex;
-    flex-flow: row no-wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -104,6 +102,12 @@ h2{
 section img{
     width: 500px;
 }
+.terza_sezione{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* section 4 */
 .img-section4{
@@ -111,9 +115,39 @@ section img{
 }
 .section-4{
     display: flex;
-    flex-flow: column no-wrap;
+    flex-flow: column wrap;
+    align-items: center;
     
 }
+h3{
+    font-size: 25px;
+}
+.btn_sottosezione{
+    background-color: rgb(144, 162, 220);
+    color: white;
+    margin-top: 30px;
+}
 
+/* footer */
+footer ul{
+    list-style: none;
+    color: white;
+    margin: 5px;
+}
+footer li:nth-child(1), footer h3{
+    color: rgb(144, 162, 220);
+}
 
+footer span{
+    color: white;
+}
+hr{
+    color: rgb(144, 162, 220);
+}
+footer_flex{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
 
+}
