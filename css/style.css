@@ -33,7 +33,6 @@ body{
 /* modifico bg-color header, footer, section */
 header{
     background-color: rgb(56, 100, 216);
-    background-image: url(../img/);
 }
 footer{
     background-color: rgb(36, 39, 42);
@@ -43,13 +42,45 @@ footer{
 }
 .btn{
     background-color: white;
-    padding: 10px;
-    border-radius: 15%;
+    padding: 10px 10px;
+    border-radius: 13%;
     text-decoration: none;
+    display: inline-block;
+}
+.bottone1{
+    color: rgb(36, 39, 42);
+    margin-right: 15px;
+}
+.bottone2{
+    background-color: rgb(36, 39, 42);
 }
 header nav ul {
     min-width: 500px;
     list-style: none;
+}
+/* Aggiungo img footer */
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 473px;
+    text-align: center;
+    color: white;
+}
+/* aggiungo margine top a nav */
+header nav{
+    padding: 20px 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+section.hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 
