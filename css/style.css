@@ -19,10 +19,15 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.header-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
 .container{
     max-width: 1170px;
-    margin: 0px auto;
+    margin: 150px auto;
 }
+
 
 /* modifico bg-color header, footer, section */
 header{
@@ -32,9 +37,7 @@ header{
 section{
     margin-bottom: 100px;
 }
-footer{
-    background-color: rgb(36, 39, 42);
-}
+
 .bg-grey{
     background-color: rgb(246, 246, 246);
 }
@@ -108,14 +111,19 @@ section img{
     justify-content: space-between;
     align-items: center;
 }
-
+.section-4 img{
+    width: 40%;
+}
+.section-4 .paragrafo-sezione{
+    width: 60%;
+}
 /* section 4 */
 .img-section4{
     width: 800px;
 }
 .section-4{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row-reverse wrap;
     align-items: center;
     
 }
@@ -126,9 +134,22 @@ h3{
     background-color: rgb(144, 162, 220);
     color: white;
     margin-top: 30px;
+    width: 180px;
+    align-self: center;
+}
+
+.ultima-section{
+    display: flex;
+    flex-flow:  nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
 }
 
 /* footer */
+footer{
+    background-color: rgb(36, 39, 42);
+}
 footer ul{
     list-style: none;
     color: white;
@@ -144,10 +165,33 @@ footer span{
 hr{
     color: rgb(144, 162, 220);
 }
-footer_flex{
+.footer_flex{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap; 
     justify-content: space-between;
-    align-items: center;
-
 }
+.nav_menu{
+    display: flex;
+    flex-flow: row wrap;
+    width: calc(100% / 6);
+}
+.footer-flex ul{
+    width: calc(100% / 6);
+}
+.li{
+    margin-bottom: 20px;
+}
+.footer-flex div{
+    width: calc((100% / 6) * 2);
+}
+.footer-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.linea{
+    border-top: 2px solid rgb(144, 162, 220);
+}
+    
