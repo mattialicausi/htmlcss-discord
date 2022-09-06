@@ -151,6 +151,12 @@ h3{
     justify-content: center;
     padding-bottom: 50px;
 }
+/* aggiungo stelle sul bottone come bg img */
+.bg-image{
+    background-image: url(../img/stars.svg);
+    padding: 40px 0;
+    background-repeat: no-repeat;
+}
 
 .ultima-section{
     display: flex;
