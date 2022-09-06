@@ -262,3 +262,8 @@ hr{
     transform: rotate(180deg);
     color: rgb(246, 246, 246);
 }
+.btn:hover {
+    cursor: pointer;
+    color:rgb(144, 162, 220);
+    box-shadow: 5px 5px 5px rgb(144, 162, 220);
+}
