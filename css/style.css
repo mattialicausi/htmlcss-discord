@@ -25,7 +25,7 @@ body{
 }
 .container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 150px auto;
 }
 
 
@@ -151,6 +151,8 @@ h3{
     align-content: center;
     align-items: center;
     padding-bottom: 50px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 
@@ -177,6 +179,8 @@ hr{
     display: flex;
     flex-flow: row wrap; 
     justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 .nav_menu{
     display: flex;
