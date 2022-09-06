@@ -25,16 +25,13 @@ body{
 }
 .container{
     max-width: 1170px;
-    margin: 150px auto;
+    margin: 0 auto;
 }
 
 
 /* modifico bg-color header, footer, section */
 header{
     background-color: rgb(56, 100, 216);
-    margin-bottom: 100px;
-}
-section{
     margin-bottom: 100px;
 }
 
@@ -111,6 +108,14 @@ section img{
     flex-flow: row-reverse wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.sezione-coach{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
 }
 .section-4 img{
     width: 40%;
@@ -135,8 +140,8 @@ h3{
     background-color: rgb(144, 162, 220);
     color: white;
     margin-top: 30px;
-    width: 100px;
     align-self: center;
+    padding: 10px 0px;
 }
 
 .ultima-section{
@@ -145,8 +150,9 @@ h3{
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 100%;
+    padding-bottom: 50px;
 }
+
 
 /* footer */
 footer{
@@ -226,3 +232,13 @@ hr{
     margin-bottom: 0;
 }
 /* fine footer */
+/* wave */
+.wave-alta{
+    display: block;
+    color: rgb(246, 246, 246);
+    margin-bottom: 0;
+}
+.wave-bassa{
+    transform: rotate(180deg);
+    color: rgb(246, 246, 246);
+}
